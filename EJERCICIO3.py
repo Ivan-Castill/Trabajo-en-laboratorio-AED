@@ -12,7 +12,8 @@ while boolean:
     if action == "LOGIN":
         emailLG = input("  Ingrese su correo electrónico:\n  ")
         passwrdLG = input("  Ingrese su contraseña:\n  ")
-        if (emailLG == "email12") and (passwrdLG == "passwrdS23"):
+        #tomar en cuenta que el correo es (email12) y la contraseña es (passwrdS23).
+        if (emailLG == "email12") and (passwrdLG == "passwrdS23"): 
             print("  --------Inicio de sesión exitoso, ¡Bienvenido!--------")
             boolean = False
         else:
